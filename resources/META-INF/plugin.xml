@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE idea-plugin PUBLIC "Plugin/DTD" "http://plugins.intellij.net/plugin.dtd">
+<idea-plugin url="http://www.roar-software.net/IntellIRC" version="1">
+  <name>IntellijIRC</name>
+  <description><![CDATA[IntellijIRC is an integrated IRC Client,base source IntellIRC, featuring or IntellIRC:
+	  	<ul>
+			<li>Managing list of IRC Network and Channel Favorites</li>
+			<li>Auto-Connect to Favorites at startup</li>
+			<li>Connect to multiple Servers/Channels</li>
+			<li>Fully supports IRC features (e.g. Actions)</li>
+			<li>Included Identd Server may be enabled if necessary</li>
+			<li>Enabling/Disabling Text Formatting/Timestamps</li>
+			<li>Conversation logging</li>
+		</ul>
+ featuring add in IntellijIRC:
+        <ul>
+            <li>Multiple server port support.</li>
+        </ul>
+  todo:
+        <ul>
+            <li>Add notify when resive a MSG.</li>
+        </ul>
+]]></description>
+  <version>1.1</version>
+  <vendor url="http://buyaoshushu.gitee.io/" email="buyao@buyaoshushu.com">Bu Yao Shu Shu</vendor>
+  <idea-version since-build="3000"/>
+  <application-components>
+    <component>
+      <implementation-class>net.roarsoftware.intellirc.core.IrcPlugin</implementation-class>
+    </component>
+  </application-components>
+</idea-plugin>
