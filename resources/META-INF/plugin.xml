@@ -20,6 +20,7 @@
         <ul>
             <li>Add notify when resive a MSG.</li>
         </ul>
+        <a href="https://github.com/buyaoshushu/IntellijIRC">source</a>
 ]]></description>
   <version>1.1</version>
   <vendor url="http://buyaoshushu.gitee.io/" email="buyao@buyaoshushu.com">Bu Yao Shu Shu</vendor>
